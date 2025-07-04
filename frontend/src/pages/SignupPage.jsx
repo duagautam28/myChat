@@ -7,7 +7,7 @@ import vcimage from "../assets/vcimage.png";
 import { signup } from "../lib/api";
 import { useNavigate } from "react-router";
 
-const SignUpPage = () => {
+const SignupPage = () => {
   const [signupData, setSignupData] = useState({
     fullName: "",
     email: "",
@@ -192,4 +192,4 @@ const navigate=useNavigate();
   );
 };
 
-export default SignUpPage;
+export default SignupPage;
